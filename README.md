@@ -31,12 +31,14 @@ This repository offers a baseline solution for the [Image Matching Challenge 202
 
 > Requirements: Python 3.8+, GPU + CUDA (recommended for speed).
 
-🚀 Usage  
-Prepare data: Download the competition data and place it under `data/` or update the `data_dir` variable in the notebook.
+---
 
-Launch notebook: Open `baseline-dinov2-aliked-lig-070803.ipynb` in Jupyter or on Kaggle. Select a GPU accelerator.
+### 🚀 Usage  
+**Prepare data:** Download the competition data and place it under `data/` or update the `data_dir` variable in the notebook.
 
-Configure mode:  
+**Launch notebook:** Open `baseline-dinov2-aliked-lig-070803.ipynb` in Jupyter or on Kaggle. Select a GPU accelerator.
+
+**Configure mode:**
 - `is_train = True` — evaluate locally against the training labels  
 - `is_train = False` — generate a test submission
 
@@ -47,9 +49,9 @@ Run all cells. The script will:
 - (Optional) Import matches into a COLMAP database  
 - Produce `submission.csv` in your working directory
 
-Submit: Upload `submission.csv` to the Kaggle competition page.
+**Submit:** Upload `submission.csv` to the Kaggle competition page.
 
-⚙️ Configuration Options  
+### ⚙️ Configuration Options  
 - `data_dir`: Path to competition data  
 - `workdir`: Directory for intermediate files  
 - `is_train`: Toggle train/eval vs. test submission  
@@ -57,7 +59,7 @@ Submit: Upload `submission.csv` to the Kaggle competition page.
 
 Feel free to tweak matching thresholds, pair selection, or swap in your favorite component.
 
-📚 References  
+### 📚 References  
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network  
 - LightGlue: Local Feature Matching at Light Speed  
 - Based on oldufo’s IMC 2024 example
