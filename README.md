@@ -22,12 +22,12 @@ This repository offers a baseline solution for the [Image Matching Challenge 202
    cd <your-repo-folder>
 
 2. **Install Python dependencies:**
-```
-pip install -r requirements.txt
-# ALIKED
-pip install git+https://github.com/Shiaoming/ALIKED.git
-# LightGlue
-pip install git+https://github.com/cvg/LightGlue.git
+   ```
+   pip install -r requirements.txt
+   # ALIKED
+   pip install git+https://github.com/Shiaoming/ALIKED.git
+   # LightGlue
+   pip install git+https://github.com/cvg/LightGlue.git
 
 > Requirements: Python 3.8+, GPU + CUDA (recommended for speed).
 
