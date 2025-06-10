@@ -18,8 +18,8 @@ This repository offers a baseline solution for the [Image Matching Challenge 202
 
 1. **Clone the repo**:  
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/hanahcodes/3dimagereconstruction.git
+   cd 3dimagereconstruction
 
 2. **Install Python dependencies:**
    ```
