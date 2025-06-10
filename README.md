@@ -1,4 +1,4 @@
-## Baseline DINOv2 + ALIKED + LightGlue for Image Matching Challenge 2025
+## Baseline DINOv2 + ALIKED + LightGlue for Image Matching 
 
 This repository offers a baseline solution for the [Image Matching Challenge 2025](https://www.kaggle.com/competitions/image-matching-challenge-2025). It combines **DINOv2** for global descriptor extraction, **ALIKED** for local feature detection and description, and **LightGlue** for efficient feature matching.
 
@@ -51,6 +51,8 @@ Run all cells. The script will:
 
 **Submit:** Upload `submission.csv` to the Kaggle competition page.
 
+---
+
 ### ⚙️ Configuration Options  
 - `data_dir`: Path to competition data  
 - `workdir`: Directory for intermediate files  
@@ -58,6 +60,8 @@ Run all cells. The script will:
 - Matching strategy: Switch between exhaustive pairing or shortlist by global descriptors  
 
 Feel free to tweak matching thresholds, pair selection, or swap in your favorite component.
+
+---
 
 ### 📚 References  
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network  
