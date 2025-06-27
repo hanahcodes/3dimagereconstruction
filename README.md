@@ -1,8 +1,8 @@
 ## Baseline DINOv2 + ALIKED + LightGlue for Image Matching 
 
-This repository offers a baseline solution for the [Image Matching Challenge 2025](https://www.kaggle.com/competitions/image-matching-challenge-2025). It combines **DINOv2** for global descriptor extraction, **ALIKED** for local feature detection and description, and **LightGlue** for efficient feature matching.
+This repository offers a baseline solution for image matching. It combines **DINOv2** for global descriptor extraction, **ALIKED** for local feature detection and description, and **LightGlue** for efficient feature matching.
 
-> ⚡ **Heads-up**: This isn’t the fanciest approach you’ll find—just a solid starting point to get an image matching up and running fast. It was ranked 113 out of 1,176 participants. 
+> ⚡ **Heads-up**: This isn’t the fanciest approach you’ll find, just a solid starting point to get an image matching up and running fast. It was ranked 113 out of 1,176 participants. 
 > 
 ---
 
